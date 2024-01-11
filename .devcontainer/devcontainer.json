@@ -17,7 +17,8 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "mathematic.vscode-pdf"
+                "mathematic.vscode-pdf",
+                "dsvictor94.promela"
             ],
             "settings": { 
                 "terminal.integrated.shell.linux": "/bin/bash",
