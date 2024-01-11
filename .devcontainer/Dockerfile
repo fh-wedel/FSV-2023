@@ -6,7 +6,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 # This sets up a basic environment.
 
 RUN apt-get update && apt-get install -y \
-    git rlwrap curl unzip \
+    git rlwrap curl unzip gcc \
     # for reqbuilding also install  default-jdk maven \
     # You can include other necessary tools here, depending on your development needs.
     && apt-get autoremove -y \
